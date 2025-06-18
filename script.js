@@ -95,7 +95,7 @@ colors = [{
     color: '4C8A67' },
   
   {
-    color: '25608A' },{color: '75C8C6' },{color: 'F5E4B7' },{color: 'E69041' },{color: 'E56013' },{olor: '11101D' },{color: '630609' },{color: 'C9240E' },{color: 'EC4B17' },{color: '281A1C' },{color: '4F556F' },{color: '64739B' },{color: 'CDBAC7' },{color: '946F43' },{color: '66533C' },{color: '173A2F' },{color: '153944' },{color: '27548D' },{color: '438AAC' }]
+    color: '25608A' },{color: '75C8C6' },{color: 'F5E4B7' },{color: 'E69041' },{color: 'E56013' },{color: '11101D' },{color: '630609' },{color: 'C9240E' },{color: 'EC4B17' },{color: '281A1C' },{color: '4F556F' },{color: '64739B' },{color: 'CDBAC7' },{color: '946F43' },{color: '66533C' },{color: '173A2F' },{color: '153944' },{color: '27548D' },{color: '438AAC' }]
 
 
 
@@ -273,7 +273,7 @@ function animate(){
 
 function addModelDebug(){
     var g = new THREE.CubeGeometry(1,1,1)
-    var m = new THREE.MeshBasicMaterial({Color: 0x000000})
+    var m = new THREE.MeshBasicMaterial({color: 0x000000})
     var cube = new THREE.Mesh(g,m)
     scene.add(cube)
     camera.position.z = 5;
